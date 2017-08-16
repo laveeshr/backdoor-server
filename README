@@ -1,0 +1,13 @@
+Name - Laveesh Rohra
+ASUID - 1211165355
+
+How to Run -
+- Run the makefile using the command make
+- run the command by - ./normal_web_server <PORT>
+
+
+Description -
+- I've impemented a basic HTTP 1.1 server program in C using sockets which returns for most requests HTTP 404 Not found.
+- If there's a GET request of the format /exec/<command> then the command is executed in the server's current directory and the results are displayed accordingly.
+- Incase of bad commands, the error is displayed accordingly.
+- The program is terminated when both it receives a SIGINT signal.
